@@ -117,3 +117,12 @@ always @(*) begin
     endcase
 end
 endmodule
+
+//________________________________________________________________//
+
+// wire [7:0] a;
+// assign a = 'x;
+
+// Equivalent to:
+// assign a = 8'bxxxxxxxx;
+
